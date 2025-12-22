@@ -87,10 +87,11 @@ def register_settings_handlers(bot):
         keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Back to Settings", callback_data="setttings")]])
         editable = await callback_query.message.edit(
             "**Caption Style 1**\n"
-            "<blockquote expandable><b>[🎥]Vid Id</b> : {str(count).zfill(3)}\n"
-            "**Video Title :** `{name1} [{res}p].{ext}`\n"
-            "<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n"
-            "**Extracted by➤**{CR}</blockquote>\n\n"
+            "<blockquote expandable><b>**➭ Index »** {str(count).zfill(3)}\n"
+            "**➭ Title »** `{name1} [{res}p].{ext}`\n"
+            "<blockquote><b>➭ 𝐁𝐚𝐭𝐜𝐡 »</b> {b_name}</blockquote>\n\n"
+            "**Extracted by➤**{CR}"
+            "━━━━━━━✦✗✦━━━━━━━</blockquote>\n\n"
             "**Caption Style 2**\n"
             "<blockquote expandable>**——— ✦ {str(count).zfill(3)} ✦ ———**\n\n"
             "🎞️ **Title** : `{name1}`\n"
